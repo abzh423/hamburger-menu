@@ -1,4 +1,6 @@
 import { Popover } from "@headlessui/react";
+import { MenuIcon } from "@heroicons/react/solid";
+import "./PopoverExample.css";
 
 function PopoverExample() {
   return (
@@ -6,10 +8,7 @@ function PopoverExample() {
       {({ open }) => (
         <>
           <Popover.Button>
-            <div className="hamburger w-4 h-4">
-              <span className="w-4 h-2 bg-black"></span>
-              <span className="w-4 h-2 bg-black"></span>
-            </div>
+            <MenuIcon className="h-6 w-6" />
           </Popover.Button>
           <Popover.Panel>
             <h1>Hello World</h1>
