@@ -11,7 +11,11 @@ I have used tailwind for that, and the following what implements it:
 ### Headless UI
 
 For PopoverExample.tsx I have used `<Transition />` component that makes appearance
-of popover.panel smooth. To use `<Transition />`, just wrap around whatever you need.
+of popover.panel smooth.
+
+To use `<Transition />`, just wrap around whatever you need.
+
 Basically the structure is simple, you have to wrap `<Popover.Button />`
 and `<Popover.Panel />` in `<Popover />`. Otherwise it won't work.
+
 And finally, `<Popover.Button />` opens `<Popover.Panel />`.
