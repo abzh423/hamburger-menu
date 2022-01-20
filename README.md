@@ -1,4 +1,4 @@
-## Hamburger Menu Repo
+### Hamburger Menu Repo
 
 That repo is supposed to be a place to accumulate all my knowledge
 and new discoveries about ways in wich to create mobile menus.
