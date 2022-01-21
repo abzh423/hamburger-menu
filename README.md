@@ -25,7 +25,15 @@ And finally, `<Popover.Button />` opens `<Popover.Panel />`.
 The easisest solution is just to reference the button and click it.
 ```
 const buttonRef = useRef<any>();
+
 onClick={() => {
   buttonRef.current.click();
 }
+
+<Popover.Button
+className='p-1 mt-1 rounded-md bg-gray-200'
+ref={buttonRef}
+>
+{buttonHandler}
+</Popover.Button>
 ```
