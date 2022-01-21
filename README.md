@@ -23,8 +23,9 @@ And finally, `<Popover.Button />` opens `<Popover.Panel />`.
 ### How to close Popover.Panel
 
 The easisest solution is just to reference the button and click it.
-`const buttonRef = useRef<any>();
+```
+const buttonRef = useRef<any>();
 onClick={() => {
   buttonRef.current.click();
 }
-`
+```
